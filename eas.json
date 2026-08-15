@@ -1,6 +1,6 @@
 {
   "cli": {
-    "version": ">= 7.0.0"
+    "version": ">= 15.0.0"
   },
   "build": {
     "development": {
@@ -11,13 +11,9 @@
       "distribution": "internal"
     },
     "production": {
-      "node": "20.18.0",
-      "yarn": "1.22.22",
+      "node": "20.19.4",
       "env": {
         "YARN_ENABLE_IMMUTABLE_INSTALLS": "false"
-      },
-      "android": {
-        "buildType": "app-bundle"
       }
     }
   },
