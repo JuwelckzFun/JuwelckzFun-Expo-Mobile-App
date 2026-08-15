@@ -11,6 +11,11 @@
       "distribution": "internal"
     },
     "production": {
+      "node": "20.18.0",
+      "yarn": "1.22.22",
+      "env": {
+        "YARN_ENABLE_IMMUTABLE_INSTALLS": "false"
+      },
       "android": {
         "buildType": "app-bundle"
       }
