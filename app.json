@@ -36,6 +36,20 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "sdkVersion": "54.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "extra": {
+      "router": {
+        "origin": "https://replit.com/"
+      },
+      "eas": {
+        "projectId": "4d28eb35-224c-4045-b999-3d282f6b66a1"
+      }
     }
   }
 }
